@@ -9,6 +9,16 @@
 // export default fromJS(state)
 
 export default {
-  cats: [],
+  cats: [
+    {
+        id: 1,
+        name: 'one',
+        breed: 'a cat',
+        weight: '333',
+        temperament: 'what?',
+        hobby_ids: []
+    }
+  ],
   hobbies: []
 }
+
